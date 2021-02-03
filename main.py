@@ -31,7 +31,7 @@ def take_command():
     return command
 
 
-def run_bhauji():
+def run_Alexa():
     command = take_command()
     print(command)
     if 'play' in command:
@@ -57,4 +57,4 @@ def run_bhauji():
 
 
 while True:
-    run_bhauji()
+    run_Alexa()
